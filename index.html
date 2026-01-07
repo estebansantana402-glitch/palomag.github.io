@@ -1,0 +1,197 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paloma</title>
+    <style>
+        /* Estilos generales del cuerpo de la página */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #d937d6; /* Un morado muy claro, casi lila */
+            color: #4a148c; /* Morado oscuro para los textos */
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        /* Estilos para el contenedor principal */
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilos para el encabezado */
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        /* Estilo para los títulos */
+        h1, h2 {
+            font-family: 'Georgia', serif;
+            color: #6a1b9a; /* Un morado vibrante */
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+            position: relative; /* Para poder añadir el diseño de flores */
+            padding-bottom: 10px;
+            display: inline-block;
+        }
+
+        h1::after, h2::after {
+            content: '🌸'; /* Símbolo de flor de cerezo */
+            font-size: 1.2em;
+            margin-left: 10px;
+            color: #9c27b0; /* Morado más rosado */
+        }
+        
+        /* Estilo para los textos */
+        p {
+            font-size: 1.1em;
+            text-align: justify;
+        }
+
+        /* Contenedor de imágenes para poder organizarlas */
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 30px;
+            gap: 20px; /* Espacio entre las imágenes */
+        }
+        
+        /* Estilo para las imágenes en forma de corazón */
+        .heart-image {
+            width: 250px; /* Tamaño de la imagen */
+            height: 250px;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            transform: rotate(-10deg); /* Ligeramente inclinado para un toque artístico */
+            border: 5px solid #ab47bc; /* Borde morado */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        /* Transición al pasar el mouse por encima */
+        .heart-image:hover {
+            transform: scale(1.05) rotate(0deg); /* Se endereza y agranda un poco */
+            border-color: #c415e3;
+        }
+        
+        /* Uso de un pseudo-elemento para crear la forma de corazón */
+        .heart-image::before,
+        .heart-image::after {
+            content: '';
+            width: 100%;
+            height: 100%;
+            background-color: inherit;
+            border-radius: 50%;
+            position: absolute;
+            top: -50%;
+            left: 0;
+        }
+        
+        .heart-image::after {
+            top: 0;
+            left: 50%;
+        }
+
+      
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-style: italic;
+            color: #7b1fa2;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>💖 PALOMA 💖</h1>
+        </header>
+        
+        <p>Mi vida primero quiero resaltar la maravillosa mujer que has sido y tu amabilidad con las demás personas eso dice mucho de la buena mujer que eres cada día me sorprendes mas de te he adorado en cada de tus facetas emocionales eres la mujer que me ha hecho madurar y las cualidades que tienes te hacen ser única entre todas amor y los tremendos atributos que tienes amor hacen volverme loco siempre estoy pensando en ti, tienes una sonrisa tan especial que cambia cualquier momento de tristeza y depresión, tus ojos tienen un brillo especial que me hipnotizan y me encanta que veas las cosas diferentes siempre miras la parte buena tu corazón transmite bondad pura y fue unas de las cosas que me hicieron que me gustaras demasiado el trato que me has brindo ha sido espectacular lo mas hermoso del mundo.</p>
+
+        <hr>
+
+       <center><h2>💖MI BELLISIMA MUJER💖</h2></center>
+
+        <div class="image-container">
+            <div class="heart-image" style="background-image: url('1.jpeg'); "></div>
+            
+            <div class="heart-image" style="background-image: url('11.jpeg');"></div>
+
+            <div class="heart-image" style="background-image: url('9.jpeg');"></div>
+        </div>
+
+         <div class="image-container">
+            <div class="heart-image" style="background-image: url('12.jpeg'); "></div>
+            
+            <div class="heart-image" style="background-image: url('13.jpeg');"></div>
+
+            <div class="heart-image" style="background-image: url('14.jpeg');"></div>
+
+            <div class="heart-image" style="background-image: url('15.jpeg');"></div>
+             <div class="heart-image" style="background-image: url('16.jpeg');"></div>
+
+            <div class="heart-image" style="background-image: url('17.jpeg');"></div>
+
+            <div class="heart-image" style="background-image: url('18.jpeg');"></div>
+        
+        </div>
+        <p>Eres mi princesa hermosa, te he visto en todas las formas posibles y siempre vas a hcer mi princesa a la mujer que siempre quere ver feliz me encanta sacarte una sonrisa me he enamorado hasta de tus enojos de la manera de regañarme lo hermosa que eres mi amor te amo y te amare siempre pase lo que pase mi amor.</p>
+
+        <footer>
+          💜 AMOR MIO 💜
+        </footer>
+    </div>
+
+    <body>
+
+    <div class="container">
+        <header>
+            <h1>💖 NUESTRA HISTORIA DE AMOR 💖</h1>
+        </header>
+        
+        <p>Amor mío escribir esto me llena de sentimientos por todo lo que hemos vivido juntos la conexión tan impresionante que tenemos de lo mucho que nos amamos y de lo mucho que nos amaremos eres la mujer que siempre le había pedido a Dios lo tienes todo mi amor tienes todo para siempre mantenerme feliz hasta en los momentos mas difíciles y también que aun que pasamos por circunstancias difíciles que fue nuestra separación eso nos ayudo a madurar y aprender de nuestros errores y nos hizo saber lo bonito que teníamos que con ninguna persona nos volvimos a sentir amado de una manera mágica siempre te me venias a la mente siempre estuviste presente y dije que haría lo fuera para volver a tenerte mi amor aun nuestros destinos ya estaban destinados a reencontrarnos le ore mucho a Dios para que vieras que te seguía amando y saber que de igual manera tu me seguías amando al momento de que volvimos a tener un comunicación constante supe que teníamos todavía esa conexión que fue como cosa de al instante volver a darnos esa muestra de amor que tanto queríamos y que en poco tiempo sentíamos que todo fluía y que todo se fue dando de una manera maravillosa y que al momento de formalizar nos fuera super bien no hubo oposición de nadie y que después de eso solo vinieran momentos de amor y felicidad que siento muy feliz de estar a tu lado mi amor todo momento junto a ti es felicidad aunque a veces tengamos diferencias eso no se vuelve impedimento de seguir amándonos y que cada día recibir un buenos días de la personas que mas amas es la mejor manera de empezarlo porque aun que no sea físicamente mentalmente vas a estar todo el día junto a ti me gusta todos momentos que hemos pasado juntos y experimentar muchas cosas junto a ti mi amor y que fuera tu primera ves en muchas cosas me hace sentir aun mas feliz te amo, te adoro, eres mi todo lo que me inspira a ser mejor persona cada día estoy super orgulloso de ti eres perfecta para mi tienes cualidades maravillosas y esa atención que me brindas cuando estamos juntos me hacen subir a lo mas alto aun quiero momentos de privacidad junto a ti mi amor que solo seamos los dos disfruto de eso de solo escucharte de sentirte, de olerte de sentirte mía adoro tus besos, tus abrazos, tus caricias simplemente amo todo de ti y quiero que recuerdes que siempre estaré para ser tu mano de apoyo en cualquier momento de dificulta TE AMOOOOOOOOOOOOOOOOOOOO MUCHOOOOOOOOOOOOOOOOOOOOOO MI PRINCESA QUE SOLO SEAMOS TU Y YO POR SIEMPRE.</p>
+
+        <hr>
+
+       <center><h2>💖P Y E💖</h2></center>
+
+        <div class="image-container">
+            <div class="heart-image" style="background-image: url('2.jpeg'); "></div>
+            
+            <div class="heart-image" style="background-image: url('3.jpeg');"></div>
+
+            <div class="heart-image" style="background-image: url('4.jpeg');"></div>
+        </div>
+
+         <div class="image-container">
+            <div class="heart-image" style="background-image: url('5.jpeg'); "></div>
+            
+            <div class="heart-image" style="background-image: url('6.jpeg');"></div>
+
+             <div class="heart-image" style="background-image: url('7.jpeg');"></div>
+           
+             <div class="heart-image" style="background-image: url('8.jpeg');"></div>
+             
+             <div class="heart-image" style="background-image: url('10.jpeg');"></div>
+        </div>
+        
+        <footer>
+          💜 DEL HOMBRE QUE DARA TODO PARA VERTE FELIZ 💜
+        </footer>
+    </div>
+
+
+</body>
+</html>
